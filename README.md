@@ -1,5 +1,7 @@
 # keras-learnings
 
+Install the requirements.txt if needed.
+
 Activate the virtual env:
 ```
 source env/bin/activate
