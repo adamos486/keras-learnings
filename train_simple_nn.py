@@ -48,9 +48,10 @@ lb = LabelBinarizer()
 trainY = lb.fit_transform(trainY)
 testY = lb.transform(testY)
 
-[1, 0, 0] # cats
-[0, 1, 0] # dogs
-[0, 0, 1] # pandas
+[1, 0, 0, 0] # cats
+[0, 1, 0, 0] # dogs
+[0, 0, 1, 0] # hoop
+[0, 0, 0, 1] # pandas
 
 model = Sequential()
 model.add(Dense(1024, input_shape=(3072,), activation="sigmoid"))
